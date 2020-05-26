@@ -1,0 +1,90 @@
+body{
+    background-image: url("img/bg-2.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    width: 60%;
+    height: 50px;
+    margin: auto;
+
+    background-color: orangered; 
+}
+
+header img{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 15% 12% 15%;
+    gap: 5px 0px;
+    justify-content: left;
+
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+
+main{
+    display: grid;
+    grid-template-columns: 70% 28%;
+    justify-content: space-between;
+    width: 60%;
+    height: 700px;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: 47% 47%;
+    grid-template-rows: 230px 230px 230px;
+    justify-content: space-around;
+    gap: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-color:white;
+}
+
+aside{
+    background-color: hotpink;
+}
+.prod1{
+    background-color:blue;
+    display: grid;
+    grid-template-rows: 130px 25px 25px 40px;
+    grid-template-columns: 100%;
+    gap: 5px 0px;
+
+}
+
+.imagen{
+    background-color: darkblue;
+}
+.nombre{background-color: coral;}
+.lorem{background-color: cornflowerblue;}
+.boton{background-color: cyan;}
+
+.prod2{background-color:blueviolet;}
+.prod3{background-color:yellow;}
+.prod4{background-color:red;}
+.prod5{background-color:paleturquoise;}
+.prod6{background-color:gold;}
+
+aside div{
+    background-color: white;
+}
+
+aside div image{
+    width: 100%;
+}
+
